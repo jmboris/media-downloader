@@ -6,7 +6,7 @@ Media Downloader is a Qt/C++ front end to yt-dlp, youtube-dl, gallery-dl, lux, y
 
 version v5.4.1
 
-Binaries http://voidrepo.duckdns.org/
+Binaries https://voidrepo.linuxnauta.com/
 
 Developer
 [https://github.com/mhogomchungu/media-downloader](https://github.com/mhogomchungu/media-downloader)
