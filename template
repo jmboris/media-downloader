@@ -1,0 +1,17 @@
+# Template file for 'media-downloader'
+pkgname=media-downloader
+version=5.4.1
+revision=1
+archs="x86_64"
+build_style=cmake
+configure_args="-DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=release .."
+hostmakedepends="git"
+makedepends="qt5-devel"
+depends="ffmpeg tar"
+short_desc="Qt/C++ front end to yt-dlp, youtube-dl, gallery-dl, lux, you-get, svtplay-dl, aria2c, wget and safari books"
+maintainer="JuanMa <numblinux@gmail.com>"
+license="GPL-2.0-or-later"
+homepage="https://github.com/mhogomchungu/media-downloader"
+changelog="https://github.com/mhogomchungu/media-downloader/raw/main/changelog"
+distfiles="https://github.com/mhogomchungu/${pkgname}/archive/refs/tags/${version}.tar.gz"
+checksum=2c8c456e082d1c49316c9f3f52e07d62aaa1671024aea7d964ba0f32dbbc1e1a
